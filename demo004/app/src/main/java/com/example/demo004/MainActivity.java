@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     // 初始化用户类型的下拉框
-    private String[] typeArray = {"个人用户","施海洋-18990044", "公司用户"};
+    private String[] typeArray = {"个人用户","公司用户","施海洋-18990044"};
 
     private void initTypeSpinner() {
         // 声明一个下拉列表的数组适配器
