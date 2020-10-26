@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // 设置下拉框的数组适配器
         sp_type.setAdapter(typeAdapter);
         // 设置下拉框默认显示第几项
-        sp_type.setSelection(1);
+        sp_type.setSelection(2);
 
         // 给下拉框设置选择监听器，一旦用户选中某一项，就触发监听器的onItemSelected方法
         sp_type.setOnItemSelectedListener(new TypeSelectedListener());
