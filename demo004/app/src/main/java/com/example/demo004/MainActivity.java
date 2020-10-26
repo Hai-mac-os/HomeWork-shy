@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView textView;
 
     private int mRequestCode = 0; // 跳转页面时的请求代码
-    private int mType = 0; // 用户类型
+    private int mType = 2; // 用户类型
     private boolean bRemember = false; // 是否记住密码
     private String mPassword = "111111"; // 默认密码
     private String mVerifyCode; // 验证码
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // 设置下拉框的数组适配器
         sp_type.setAdapter(typeAdapter);
         // 设置下拉框默认显示第几项
-        sp_type.setSelection(2);
+        sp_type.setSelection(mType);
 
         // 给下拉框设置选择监听器，一旦用户选中某一项，就触发监听器的onItemSelected方法
         sp_type.setOnItemSelectedListener(new TypeSelectedListener());
