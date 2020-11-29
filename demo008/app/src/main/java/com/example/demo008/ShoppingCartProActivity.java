@@ -275,6 +275,7 @@ public class ShoppingCartProActivity extends AppCompatActivity implements View.O
             Bitmap thumb = BitmapFactory.decodeFile(info.thumb_path);
             // 把该位图对象保存到应用实例的全局变量中
             MainApplication.getInstance().mIconMap.put(info.rowid, thumb);
+            //。
         }
     }
 }
