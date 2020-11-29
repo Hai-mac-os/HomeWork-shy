@@ -205,6 +205,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ll_new.setLayoutParams((weight == 0) ? mFullParams : mHalfParams);
         ll_new.setOrientation(orientation);
         return ll_new;
+        //。。。。。。。
     }
 
     private String mFirst = "true"; // 是否首次打开
